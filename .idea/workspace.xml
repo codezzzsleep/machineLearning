@@ -1,35 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="反向传播 二次模型拟合线性分布数据">
-      <change afterPath="$PROJECT_DIR$/homework/week4/ASGD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/ASGD/100 epoch-Loss_pytorch_ASGD优化器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/ASGD/1000 epoch-Loss_pytorch_ASGD优化器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/ASGD/10000 epoch-Loss_pytorch_ASGD优化器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/Adagrad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/Adagrad/100 epoch-Loss_pytorch_Adagrad优化器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/Adagrad/1000 epoch-Loss_pytorch_Adagrad优化器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/Adagrad/10000 epoch-Loss_pytorch_Adagrad优化器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/Adagrad/100000 epoch-Loss_pytorch_Adagrad优化器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/Adam.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/Adam/100 epoch-Loss_pytorch_Adam优化器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/Adam/1000 epoch-Loss_pytorch_Adam优化器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/Adam/10000 epoch-Loss_pytorch_Adam优化器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/Adamax.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/Adamax/100 epoch-Loss_pytorch_Adamax优化器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/Adamax/1000 epoch-Loss_pytorch_Adamax优化器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/Adamax/10000 epoch-Loss_pytorch_Adamax优化器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/LBFGS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/LBFGS/100 epoch-Loss_pytorch_LBFGS优化器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/LBFGS/1000 epoch-Loss_pytorch_LBFGS优化器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/RMSprop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/Rprop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/Rprop/100 epoch-Loss_pytorch_Rprop优化器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/Rprop/1000 epoch-Loss_pytorch_Rprop优化器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/Rprop/10000 epoch-Loss_pytorch_Rprop优化器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/SGD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/epoch-Loss_pytorch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week4/how to use pytorch.py" afterDir="false" />
+    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="对比pytorch 几种优化器的使用">
+      <change afterPath="$PROJECT_DIR$/dataset/mnist/MNIST/raw/t10k-images-idx3-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/mnist/MNIST/raw/t10k-images-idx3-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/mnist/MNIST/raw/t10k-labels-idx1-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/mnist/MNIST/raw/t10k-labels-idx1-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/mnist/MNIST/raw/train-images-idx3-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/mnist/MNIST/raw/train-images-idx3-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/mnist/MNIST/raw/train-labels-idx1-ubyte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/mnist/MNIST/raw/train-labels-idx1-ubyte.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/week5/LogisticRegressionModel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/week5/epoch-Loss_logistic.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +28,22 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6a5f44e5-e71d-4d92-86c9-307c6775d069" />
+        <option name="url" value="git@github.com:codezzzsleep/machineLearning.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -81,8 +79,8 @@
       <recent name="E:\github\machineLearning\homework\week2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SGD">
-    <configuration name="ASGD" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.LogisticRegressionModel">
+    <configuration name="LogisticRegressionModel (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,12 +88,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/week4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/week5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/week4/ASGD.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/week5/LogisticRegressionModel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LBFGS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="LogisticRegressionModel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,12 +110,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/week4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/week5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/week4/LBFGS.py" />
+      <option name="SCRIPT_NAME" value="E:\github\machineLearning\homework\week5\LogisticRegressionModel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LogisticRegressionModel" />
+        <item itemvalue="Python.LogisticRegressionModel (1)" />
         <item itemvalue="Python.SGD" />
         <item itemvalue="Python.Rprop" />
         <item itemvalue="Python.RMSprop" />
-        <item itemvalue="Python.LBFGS" />
-        <item itemvalue="Python.ASGD" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +209,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689557493666</updated>
       <workItem from="1689557494586" duration="4000" />
-      <workItem from="1689557519095" duration="19592000" />
+      <workItem from="1689557519095" duration="24134000" />
     </task>
     <task id="LOCAL-00001" summary="add photo">
       <created>1689557791551</created>
@@ -262,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689577859625</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="对比pytorch 几种优化器的使用">
+      <created>1689587965378</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689587965378</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,15 +292,19 @@
     <MESSAGE value="随机梯度下降算法" />
     <MESSAGE value="反向传播" />
     <MESSAGE value="反向传播 二次模型拟合线性分布数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="反向传播 二次模型拟合线性分布数据" />
+    <MESSAGE value="对比pytorch 几种优化器的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="对比pytorch 几种优化器的使用" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machineLearning$how_to_use_pytorch.coverage" NAME="how to use pytorch Coverage Results" MODIFIED="1689585624585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
+    <SUITE FILE_PATH="coverage/machineLearning$SGD.coverage" NAME="SGD Coverage Results" MODIFIED="1689587827808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
     <SUITE FILE_PATH="coverage/machineLearning$ASGD.coverage" NAME="ASGD Coverage Results" MODIFIED="1689586531291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
-    <SUITE FILE_PATH="coverage/machineLearning$LBFGS.coverage" NAME="LBFGS Coverage Results" MODIFIED="1689587568595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
+    <SUITE FILE_PATH="coverage/machineLearning$LBFGS.coverage" NAME="LBFGS Coverage Results" MODIFIED="1689587697138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
+    <SUITE FILE_PATH="coverage/machineLearning$LogisticRegressionModel__1_.coverage" NAME="LogisticRegressionModel (1) Coverage Results" MODIFIED="1689597894426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week5" />
+    <SUITE FILE_PATH="coverage/machineLearning$.coverage" NAME="逻辑斯蒂回归 Coverage Results" MODIFIED="1689594961119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week5" />
     <SUITE FILE_PATH="coverage/machineLearning$Adamax.coverage" NAME="Adamax Coverage Results" MODIFIED="1689586492264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
-    <SUITE FILE_PATH="coverage/machineLearning$Rprop.coverage" NAME="Rprop Coverage Results" MODIFIED="1689585958767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
-    <SUITE FILE_PATH="coverage/machineLearning$RMSprop.coverage" NAME="RMSprop Coverage Results" MODIFIED="1689585707443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
+    <SUITE FILE_PATH="coverage/machineLearning$Rprop.coverage" NAME="Rprop Coverage Results" MODIFIED="1689587802312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
+    <SUITE FILE_PATH="coverage/machineLearning$RMSprop.coverage" NAME="RMSprop Coverage Results" MODIFIED="1689587739748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
     <SUITE FILE_PATH="coverage/machineLearning$line_model_2.coverage" NAME="line model 2 Coverage Results" MODIFIED="1689560129728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week1" />
     <SUITE FILE_PATH="coverage/machineLearning$back_propagation.coverage" NAME="back propagation Coverage Results" MODIFIED="1689576526194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week3" />
     <SUITE FILE_PATH="coverage/machineLearning$back_propagation_2.coverage" NAME="back propagation 2 Coverage Results" MODIFIED="1689577758271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week3" />
