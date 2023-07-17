@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="week homework">
-      <change afterPath="$PROJECT_DIR$/homework/week2/gradient.py" afterDir="false" />
+    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="梯度学习算法">
+      <change afterPath="$PROJECT_DIR$/homework/week2/epoch-Loss_random.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/week2/epoch-W_random.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/week2/random gradient.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/week2/epoch-Loss.png" beforeDir="false" afterPath="$PROJECT_DIR$/homework/week2/epoch-Loss.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/week2/epoch-W.png" beforeDir="false" afterPath="$PROJECT_DIR$/homework/week2/epoch-W.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/week2/gradient.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/week2/gradient.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes/pytorch 深度学习实践笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/pytorch 深度学习实践笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,17 +39,27 @@
     </option>
   </component>
   <component name="ProjectId" id="2Sg9iZ3mM0tVgTvZCSTwjEJkpic" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework/week2" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.gradient">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\github\machineLearning\homework\week2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.random gradient">
     <configuration name="gradient" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,8 +104,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="random gradient" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/week2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/week2/random gradient.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.random gradient" />
         <item itemvalue="Python.gradient" />
         <item itemvalue="Python.line model 2" />
       </list>
@@ -105,7 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689557493666</updated>
       <workItem from="1689557494586" duration="4000" />
-      <workItem from="1689557519095" duration="4420000" />
+      <workItem from="1689557519095" duration="5661000" />
     </task>
     <task id="LOCAL-00001" summary="add photo">
       <created>1689557791551</created>
@@ -121,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689560167926</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="梯度学习算法">
+      <created>1689562493194</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689562493194</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,12 +184,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add photo" />
     <MESSAGE value="week homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="week homework" />
+    <MESSAGE value="梯度学习算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="梯度学习算法" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machineLearning$line_model_2.coverage" NAME="line model 2 Coverage Results" MODIFIED="1689560129728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week1" />
-    <SUITE FILE_PATH="coverage/machineLearning$gradient.coverage" NAME="gradient Coverage Results" MODIFIED="1689562170808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week2" />
+    <SUITE FILE_PATH="coverage/machineLearning$random_gradient.coverage" NAME="random gradient Coverage Results" MODIFIED="1689563256682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week2" />
+    <SUITE FILE_PATH="coverage/machineLearning$gradient.coverage" NAME="gradient Coverage Results" MODIFIED="1689562588633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week2" />
   </component>
 </project>
