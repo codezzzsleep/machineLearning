@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="随机梯度下降算法">
-      <change afterPath="$PROJECT_DIR$/homework/week3/epoch-Loss_pytorch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week3/epoch-W_pytorch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week3/epoch-grad_pytorch.png" afterDir="false" />
+    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="反向传播">
+      <change afterPath="$PROJECT_DIR$/homework/week3/back propagation 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/week3/epoch-Loss_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/week3/epoch-Loss_back2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/week3/epoch-W_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/week3/epoch-a_back2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/week3/epoch-b_back2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/week3/epoch-c_back2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/week3/epoch-grad_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/week3/epoch-grad_back_l.item.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework/week3/back propagation.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/week3/back propagation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/week3/epoch-Loss_pytorch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/week3/epoch-W_pytorch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/week3/epoch-grad_pytorch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/week3/epoch-grad_pytorch_l.item.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +66,29 @@
       <recent name="E:\github\machineLearning\homework\week2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.back propagation">
+  <component name="RunManager" selected="Python.back propagation 2">
+    <configuration name="back propagation 2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/week3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/week3/back propagation 2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="back propagation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,6 +179,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.back propagation 2" />
         <item itemvalue="Python.back propagation" />
         <item itemvalue="Python.random gradient" />
         <item itemvalue="Python.gradient" />
@@ -163,7 +196,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689557493666</updated>
       <workItem from="1689557494586" duration="4000" />
-      <workItem from="1689557519095" duration="10321000" />
+      <workItem from="1689557519095" duration="12197000" />
     </task>
     <task id="LOCAL-00001" summary="add photo">
       <created>1689557791551</created>
@@ -200,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689566026571</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="反向传播">
+      <created>1689575814667</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689575814667</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,11 +263,13 @@
     <MESSAGE value="week homework" />
     <MESSAGE value="梯度学习算法" />
     <MESSAGE value="随机梯度下降算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="随机梯度下降算法" />
+    <MESSAGE value="反向传播" />
+    <option name="LAST_COMMIT_MESSAGE" value="反向传播" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machineLearning$line_model_2.coverage" NAME="line model 2 Coverage Results" MODIFIED="1689560129728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week1" />
-    <SUITE FILE_PATH="coverage/machineLearning$back_propagation.coverage" NAME="back propagation Coverage Results" MODIFIED="1689575693822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week3" />
+    <SUITE FILE_PATH="coverage/machineLearning$back_propagation.coverage" NAME="back propagation Coverage Results" MODIFIED="1689576526194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week3" />
+    <SUITE FILE_PATH="coverage/machineLearning$back_propagation_2.coverage" NAME="back propagation 2 Coverage Results" MODIFIED="1689577430509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week3" />
     <SUITE FILE_PATH="coverage/machineLearning$random_gradient.coverage" NAME="random gradient Coverage Results" MODIFIED="1689563256682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week2" />
     <SUITE FILE_PATH="coverage/machineLearning$gradient.coverage" NAME="gradient Coverage Results" MODIFIED="1689562588633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week2" />
   </component>
