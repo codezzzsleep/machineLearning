@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="测试不同的激活函数对数据的影响">
-      <change afterPath="$PROJECT_DIR$/homework/week7/MNIST.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week7/dataload.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week7/diabetes.csv.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week7/photo/100 epoch-Loss_diabetes_dataloader.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/week7/tmp.py" afterDir="false" />
+    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="path update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,11 +61,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework/week7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kaggle/titanic/dataset" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\github\machineLearning\kaggle\titanic\dataset" />
       <recent name="E:\github\machineLearning\homework\week7" />
       <recent name="E:\github\machineLearning\homework\week4" />
       <recent name="E:\github\machineLearning\homework\week2" />
@@ -210,7 +206,7 @@
       <updated>1689557493666</updated>
       <workItem from="1689557494586" duration="4000" />
       <workItem from="1689557519095" duration="27155000" />
-      <workItem from="1689640797262" duration="8456000" />
+      <workItem from="1689640797262" duration="11511000" />
     </task>
     <task id="LOCAL-00001" summary="add photo">
       <created>1689557791551</created>
@@ -282,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689643787413</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="path update">
+      <created>1689650596602</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689650596602</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +313,8 @@
     <MESSAGE value="对比pytorch 几种优化器的使用" />
     <MESSAGE value="逻辑斯蒂回归分类" />
     <MESSAGE value="测试不同的激活函数对数据的影响" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试不同的激活函数对数据的影响" />
+    <MESSAGE value="path update" />
+    <option name="LAST_COMMIT_MESSAGE" value="path update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machineLearning$SELU.coverage" NAME="SELU Coverage Results" MODIFIED="1689643757014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
