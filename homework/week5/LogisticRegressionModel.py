@@ -1,11 +1,12 @@
 import matplotlib.pyplot as plt
 import torch.nn
+# import torch.nn.functional as F
 import numpy as np
 
 x_data = torch.tensor([[1.0], [2.0], [3.0]])
 y_data = torch.tensor([[0.0], [0.0], [1.0]])
 loss_list = []
-rounds = 100000
+rounds = 1000
 
 
 class LogisticRegressionModel(torch.nn.Module):
