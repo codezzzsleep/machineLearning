@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="path update">
+    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="my work">
+      <change afterPath="$PROJECT_DIR$/homework/week9/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/week9/net.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/week9/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/week9/train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +79,7 @@
       <recent name="E:\github\machineLearning\homework\week6\photo\Sigmoid" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.MNIST">
+  <component name="RunManager" selected="Python.main">
     <configuration name="MNIST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,28 +94,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/week7/MNIST.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="RReLU" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="machineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/week6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/week6/RReLU.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,6 +146,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/week9" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/week9/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tmp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.MNIST" />
         <item itemvalue="Python.dataload" />
         <item itemvalue="Python.tmp" />
         <item itemvalue="Python.SELU" />
-        <item itemvalue="Python.RReLU" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +210,7 @@
       <updated>1689557493666</updated>
       <workItem from="1689557494586" duration="4000" />
       <workItem from="1689557519095" duration="27155000" />
-      <workItem from="1689640797262" duration="11511000" />
+      <workItem from="1689640797262" duration="13853000" />
     </task>
     <task id="LOCAL-00001" summary="add photo">
       <created>1689557791551</created>
@@ -285,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689650596602</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="my work">
+      <created>1689672943176</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689672943176</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +325,8 @@
     <MESSAGE value="逻辑斯蒂回归分类" />
     <MESSAGE value="测试不同的激活函数对数据的影响" />
     <MESSAGE value="path update" />
-    <option name="LAST_COMMIT_MESSAGE" value="path update" />
+    <MESSAGE value="my work" />
+    <option name="LAST_COMMIT_MESSAGE" value="my work" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machineLearning$SELU.coverage" NAME="SELU Coverage Results" MODIFIED="1689643757014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
@@ -345,6 +357,7 @@
     <SUITE FILE_PATH="coverage/machineLearning$Hardsigmoid.coverage" NAME="Hardsigmoid Coverage Results" MODIFIED="1689643043347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
     <SUITE FILE_PATH="coverage/machineLearning$Rprop.coverage" NAME="Rprop Coverage Results" MODIFIED="1689587802312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
     <SUITE FILE_PATH="coverage/machineLearning$RMSprop.coverage" NAME="RMSprop Coverage Results" MODIFIED="1689587739748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
+    <SUITE FILE_PATH="coverage/machineLearning$main.coverage" NAME="main Coverage Results" MODIFIED="1689675187296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week9" />
     <SUITE FILE_PATH="coverage/machineLearning$line_model_2.coverage" NAME="line model 2 Coverage Results" MODIFIED="1689560129728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week1" />
     <SUITE FILE_PATH="coverage/machineLearning$back_propagation.coverage" NAME="back propagation Coverage Results" MODIFIED="1689576526194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week3" />
     <SUITE FILE_PATH="coverage/machineLearning$random_gradient.coverage" NAME="random gradient Coverage Results" MODIFIED="1689563256682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week2" />
