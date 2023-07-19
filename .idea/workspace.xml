@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="测试池化参数">
-      <change afterPath="$PROJECT_DIR$/homework/week10/test4.py" afterDir="false" />
+    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="测试 nn.MaxPool2d 模块">
+      <change afterPath="$PROJECT_DIR$/homework/week10/mian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/week10/net.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework/week10/net.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +210,7 @@
       <workItem from="1689557519095" duration="27155000" />
       <workItem from="1689640797262" duration="15084000" />
       <workItem from="1689727043525" duration="4496000" />
-      <workItem from="1689752355770" duration="926000" />
+      <workItem from="1689752355770" duration="1280000" />
     </task>
     <task id="LOCAL-00001" summary="add photo">
       <created>1689557791551</created>
@@ -336,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689753242070</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="测试 nn.MaxPool2d 模块">
+      <created>1689753356051</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1689753356051</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +381,8 @@
     <MESSAGE value="test cnn" />
     <MESSAGE value="自定义卷积核" />
     <MESSAGE value="测试池化参数" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试池化参数" />
+    <MESSAGE value="测试 nn.MaxPool2d 模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试 nn.MaxPool2d 模块" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machineLearning$SELU.coverage" NAME="SELU Coverage Results" MODIFIED="1689643757014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
@@ -395,6 +405,7 @@
     <SUITE FILE_PATH="coverage/machineLearning$Adam.coverage" NAME="Adam Coverage Results" MODIFIED="1689586440283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
     <SUITE FILE_PATH="coverage/machineLearning$Hardswish.coverage" NAME="Hardswish Coverage Results" MODIFIED="1689643156848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
     <SUITE FILE_PATH="coverage/machineLearning$ELU.coverage" NAME="ELU Coverage Results" MODIFIED="1689642624814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
+    <SUITE FILE_PATH="coverage/machineLearning$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1689753325915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week10" />
     <SUITE FILE_PATH="coverage/machineLearning$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1689752699881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week10" />
     <SUITE FILE_PATH="coverage/machineLearning$SGD.coverage" NAME="SGD Coverage Results" MODIFIED="1689587827808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
     <SUITE FILE_PATH="coverage/machineLearning$ASGD.coverage" NAME="ASGD Coverage Results" MODIFIED="1689586531291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
