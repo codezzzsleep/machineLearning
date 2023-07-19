@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="test cnn">
-      <change afterPath="$PROJECT_DIR$/homework/week10/test2.py" afterDir="false" />
+    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="测试池化参数">
+      <change afterPath="$PROJECT_DIR$/homework/week10/test4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,29 +75,7 @@
       <recent name="E:\github\machineLearning\homework\week6\photo\Sigmoid" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test3">
-    <configuration name="MNIST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="machineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/week7" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/week7/MNIST.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test4">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,13 +164,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework/week10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework/week10/test4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test4" />
         <item itemvalue="Python.test3" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.test1" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.MNIST" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +208,7 @@
       <workItem from="1689557519095" duration="27155000" />
       <workItem from="1689640797262" duration="15084000" />
       <workItem from="1689727043525" duration="4496000" />
-      <workItem from="1689752355770" duration="626000" />
+      <workItem from="1689752355770" duration="926000" />
     </task>
     <task id="LOCAL-00001" summary="add photo">
       <created>1689557791551</created>
@@ -322,7 +322,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689752720561</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="自定义卷积核">
+      <created>1689753148259</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1689753148259</updated>
+    </task>
+    <task id="LOCAL-00018" summary="测试池化参数">
+      <created>1689753242070</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1689753242070</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +370,9 @@
     <MESSAGE value="work save" />
     <MESSAGE value="add book" />
     <MESSAGE value="test cnn" />
-    <option name="LAST_COMMIT_MESSAGE" value="test cnn" />
+    <MESSAGE value="自定义卷积核" />
+    <MESSAGE value="测试池化参数" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试池化参数" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machineLearning$SELU.coverage" NAME="SELU Coverage Results" MODIFIED="1689643757014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
@@ -364,11 +380,13 @@
     <SUITE FILE_PATH="coverage/machineLearning$how_to_use_pytorch.coverage" NAME="how to use pytorch Coverage Results" MODIFIED="1689585624585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
     <SUITE FILE_PATH="coverage/machineLearning$RReLU.coverage" NAME="RReLU Coverage Results" MODIFIED="1689643707941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
     <SUITE FILE_PATH="coverage/machineLearning$MNIST.coverage" NAME="MNIST Coverage Results" MODIFIED="1689649972914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week7" />
+    <SUITE FILE_PATH="coverage/machineLearning$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1689753224632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week10" />
     <SUITE FILE_PATH="coverage/machineLearning$PReLU.coverage" NAME="PReLU Coverage Results" MODIFIED="1689643522507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
     <SUITE FILE_PATH="coverage/machineLearning$MultiheadAttention.coverage" NAME="MultiheadAttention Coverage Results" MODIFIED="1689643372643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
     <SUITE FILE_PATH="coverage/machineLearning$.coverage" NAME="LogisticRegressionModel Coverage Results" MODIFIED="1689597949656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week5" />
     <SUITE FILE_PATH="coverage/machineLearning$LeakyReLU.coverage" NAME="LeakyReLU Coverage Results" MODIFIED="1689643252118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
     <SUITE FILE_PATH="coverage/machineLearning$Adamax.coverage" NAME="Adamax Coverage Results" MODIFIED="1689586492264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
+    <SUITE FILE_PATH="coverage/machineLearning$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1689753129870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week10" />
     <SUITE FILE_PATH="coverage/machineLearning$LogSigmoid.coverage" NAME="LogSigmoid Coverage Results" MODIFIED="1689643315099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
     <SUITE FILE_PATH="coverage/machineLearning$dataload.coverage" NAME="dataload Coverage Results" MODIFIED="1689649438886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week7" />
     <SUITE FILE_PATH="coverage/machineLearning$back_propagation_2.coverage" NAME="back propagation 2 Coverage Results" MODIFIED="1689577758271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week3" />
