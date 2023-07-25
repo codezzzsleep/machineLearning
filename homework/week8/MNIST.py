@@ -19,5 +19,4 @@ test_loader = DataLoader(dataset=test_dataset,
 if __name__ == '__main__':
     for epoch in range(100):
         for batch_idx, data in enumerate(train_loader):
-            inputs,labels = data
-            
+            inputs, labels = data
