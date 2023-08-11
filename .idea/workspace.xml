@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="add">
+    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="图卷积神经网络——基于PyG">
+      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/runs/Aug07_20-58-05_zzzsleep/events.out.tfevents.1691413085.zzzsleep.10336.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/runs/Aug07_20-58-32_zzzsleep/events.out.tfevents.1691413112.zzzsleep.17172.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/runs/Aug07_20-59-22_zzzsleep/events.out.tfevents.1691413162.zzzsleep.16892.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/runs/Aug07_22-51-46_zzzsleep/events.out.tfevents.1691419906.zzzsleep.7324.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/runs/Aug07_22-56-37_zzzsleep/events.out.tfevents.1691420197.zzzsleep.22916.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/runs/Aug07_22-58-43_zzzsleep/events.out.tfevents.1691420323.zzzsleep.23332.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/submission.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/utils/same_seed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/utils/save_prediction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/utils/select_feature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/utils/train_valid_split.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/models/model.ckpt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/图神经网络代码/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/图神经网络代码/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kaggle/COVID-19/code/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kaggle/COVID-19/code/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kaggle/COVID-19/code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kaggle/COVID-19/code/net/net.py" beforeDir="false" afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/net.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kaggle/COVID-19/code/utils/dataloader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kaggle/COVID-19/code/utils/feature_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kaggle/COVID-19/code/utils/train_test_split.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/图神经网络代码/demo002.py" beforeDir="false" afterPath="$PROJECT_DIR$/图神经网络代码/demo002.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,34 +90,13 @@
       <recent name="E:\github\machineLearning\homework\week2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\github\machineLearning\kaggle\COVID-19(回归)\code" />
       <recent name="E:\github\machineLearning\kaggle\COVID-19\net" />
       <recent name="E:\github\machineLearning\kaggle\COVID-19\code" />
       <recent name="E:\github\machineLearning\homework\week6\photo\Sigmoid" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.demo">
-    <configuration name="QQ图--t分布" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="machineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Visualization/多维to二维" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Visualization/多维to二维/QQ图--t分布.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.demo002">
     <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,13 +185,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kaggle/COVID-19(回归)/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.demo" />
         <item itemvalue="Python.demo002" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.demo" />
         <item itemvalue="Python.demo001" />
         <item itemvalue="Python.demo1" />
-        <item itemvalue="Python.QQ图--t分布" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +244,9 @@
       <workItem from="1691069067155" duration="130000" />
       <workItem from="1691077095327" duration="1206000" />
       <workItem from="1691111958404" duration="2244000" />
-      <workItem from="1691325467304" duration="3285000" />
+      <workItem from="1691325467304" duration="3915000" />
+      <workItem from="1691399645172" duration="6659000" />
+      <workItem from="1691671109190" duration="1417000" />
     </task>
     <task id="LOCAL-00001" summary="add photo">
       <created>1689557791551</created>
@@ -441,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691332651190</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="图卷积神经网络——基于PyG">
+      <created>1691334879324</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1691334879324</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,7 +515,8 @@
     <MESSAGE value="RNN 循环神经网络" />
     <MESSAGE value="RNN 循环神经网络直接使用提供的完整模块" />
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="图卷积神经网络——基于PyG" />
+    <option name="LAST_COMMIT_MESSAGE" value="图卷积神经网络——基于PyG" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machineLearning$SELU.coverage" NAME="SELU Coverage Results" MODIFIED="1689643757014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
@@ -524,17 +556,17 @@
     <SUITE FILE_PATH="coverage/machineLearning$back_propagation_2.coverage" NAME="back propagation 2 Coverage Results" MODIFIED="1690270928536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
     <SUITE FILE_PATH="coverage/machineLearning$ReLU6.coverage" NAME="ReLU6 Coverage Results" MODIFIED="1689643624104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
     <SUITE FILE_PATH="coverage/machineLearning$Adam.coverage" NAME="Adam Coverage Results" MODIFIED="1689586440283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
-    <SUITE FILE_PATH="coverage/machineLearning$demo002.coverage" NAME="demo002 Coverage Results" MODIFIED="1691325925192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/图神经网络代码" />
+    <SUITE FILE_PATH="coverage/machineLearning$demo002.coverage" NAME="demo002 Coverage Results" MODIFIED="1691671176418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/图神经网络代码" />
     <SUITE FILE_PATH="coverage/machineLearning$Hardswish.coverage" NAME="Hardswish Coverage Results" MODIFIED="1689643156848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
     <SUITE FILE_PATH="coverage/machineLearning$ELU.coverage" NAME="ELU Coverage Results" MODIFIED="1689642624814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
-    <SUITE FILE_PATH="coverage/machineLearning$demo.coverage" NAME="demo Coverage Results" MODIFIED="1691334562129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/图神经网络代码" />
+    <SUITE FILE_PATH="coverage/machineLearning$demo.coverage" NAME="demo Coverage Results" MODIFIED="1691334612949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/图神经网络代码" />
     <SUITE FILE_PATH="coverage/machineLearning$QQ__t.coverage" NAME="QQ图--t分布 Coverage Results" MODIFIED="1690961372378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization/多维to二维" />
     <SUITE FILE_PATH="coverage/machineLearning$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1689752699881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week10" />
     <SUITE FILE_PATH="coverage/machineLearning$Relu2.coverage" NAME="Relu2 Coverage Results" MODIFIED="1689642360554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
     <SUITE FILE_PATH="coverage/machineLearning$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1690270786458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week8" />
     <SUITE FILE_PATH="coverage/machineLearning$tensor.coverage" NAME="tensor Coverage Results" MODIFIED="1690277280486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture 1-15/Pre class" />
     <SUITE FILE_PATH="coverage/machineLearning$Rprop.coverage" NAME="Rprop Coverage Results" MODIFIED="1689587802312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
-    <SUITE FILE_PATH="coverage/machineLearning$main.coverage" NAME="main Coverage Results" MODIFIED="1690949355647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization/多维to二维" />
+    <SUITE FILE_PATH="coverage/machineLearning$main.coverage" NAME="main Coverage Results" MODIFIED="1691420321325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kaggle/COVID-19(回归)/code" />
     <SUITE FILE_PATH="coverage/machineLearning$back_propagation.coverage" NAME="back propagation Coverage Results" MODIFIED="1690270919649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
     <SUITE FILE_PATH="coverage/machineLearning$Adagrad.coverage" NAME="Adagrad Coverage Results" MODIFIED="1689586365596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
     <SUITE FILE_PATH="coverage/machineLearning$line_model.coverage" NAME="line model Coverage Results" MODIFIED="1690270878964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week2" />
