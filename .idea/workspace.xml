@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="图卷积神经网络——基于PyG">
-      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/runs/Aug07_20-58-05_zzzsleep/events.out.tfevents.1691413085.zzzsleep.10336.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/runs/Aug07_20-58-32_zzzsleep/events.out.tfevents.1691413112.zzzsleep.17172.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/runs/Aug07_20-59-22_zzzsleep/events.out.tfevents.1691413162.zzzsleep.16892.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/runs/Aug07_22-51-46_zzzsleep/events.out.tfevents.1691419906.zzzsleep.7324.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/runs/Aug07_22-56-37_zzzsleep/events.out.tfevents.1691420197.zzzsleep.22916.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/runs/Aug07_22-58-43_zzzsleep/events.out.tfevents.1691420323.zzzsleep.23332.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/submission.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/utils/same_seed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/utils/save_prediction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/utils/select_feature.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/utils/train_valid_split.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/models/model.ckpt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kaggle/COVID-19/code/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kaggle/COVID-19/code/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kaggle/COVID-19/code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kaggle/COVID-19/code/net/net.py" beforeDir="false" afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/net.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kaggle/COVID-19/code/utils/dataloader.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kaggle/COVID-19/code/utils/feature_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/kaggle/COVID-19(回归)/code/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kaggle/COVID-19/code/utils/train_test_split.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/图神经网络代码/demo002.py" beforeDir="false" afterPath="$PROJECT_DIR$/图神经网络代码/demo002.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,6 +225,7 @@
       <workItem from="1691325467304" duration="3915000" />
       <workItem from="1691399645172" duration="6659000" />
       <workItem from="1691671109190" duration="1417000" />
+      <workItem from="1691820158799" duration="1266000" />
     </task>
     <task id="LOCAL-00001" summary="add photo">
       <created>1689557791551</created>
