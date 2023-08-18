@@ -1,7 +1,8 @@
 import torch.nn as nn
 import torch.nn.functional as F
 from torch_geometric.nn import GCNConv
-
+from torch_geometric.nn import GCN2Conv
+from torch_geometric.nn import GCN
 
 class MyNet(nn.Module):
     def __init__(self, num_feature, num_hidden, num_class, dropout):

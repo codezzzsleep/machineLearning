@@ -1,4 +1,4 @@
-from torch.utils.data import Dataset
+from torch.utils.data import Dataset, DataLoader
 
 
 class MyDataset(Dataset):
@@ -10,3 +10,7 @@ class MyDataset(Dataset):
 
     def __len__(self):
         pass
+
+
+dataset = MyDataset()
+train_dataloader = DataLoader()
