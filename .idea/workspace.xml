@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="图卷积神经网络——基于PyG">
+      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +61,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -188,9 +195,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.demo002" />
+        <item itemvalue="Python.demo001" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.demo" />
-        <item itemvalue="Python.demo001" />
         <item itemvalue="Python.demo1" />
       </list>
     </recent_temporary>
@@ -226,6 +233,8 @@
       <workItem from="1691399645172" duration="6659000" />
       <workItem from="1691671109190" duration="1417000" />
       <workItem from="1691820158799" duration="1266000" />
+      <workItem from="1692178093232" duration="1327000" />
+      <workItem from="1692261154675" duration="5698000" />
     </task>
     <task id="LOCAL-00001" summary="add photo">
       <created>1689557791551</created>
@@ -451,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691334879324</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="图卷积神经网络——基于PyG">
+      <created>1692178139946</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1692178139946</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +535,7 @@
     <SUITE FILE_PATH="coverage/machineLearning$Hardshrink.coverage" NAME="Hardshrink Coverage Results" MODIFIED="1689642893969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
     <SUITE FILE_PATH="coverage/machineLearning$mian.coverage" NAME="mian Coverage Results" MODIFIED="1689754351455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week10" />
     <SUITE FILE_PATH="coverage/machineLearning$Hardsigmoid.coverage" NAME="Hardsigmoid Coverage Results" MODIFIED="1689643043347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
-    <SUITE FILE_PATH="coverage/machineLearning$demo001.coverage" NAME="demo001 Coverage Results" MODIFIED="1691325582659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/图神经网络代码" />
+    <SUITE FILE_PATH="coverage/machineLearning$demo001.coverage" NAME="demo001 Coverage Results" MODIFIED="1692347802192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/图神经网络代码" />
     <SUITE FILE_PATH="coverage/machineLearning$RMSprop.coverage" NAME="RMSprop Coverage Results" MODIFIED="1689587739748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
     <SUITE FILE_PATH="coverage/machineLearning$line_model_2.coverage" NAME="line model 2 Coverage Results" MODIFIED="1690270890584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week2" />
     <SUITE FILE_PATH="coverage/machineLearning$random_gradient.coverage" NAME="random gradient Coverage Results" MODIFIED="1690270909517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week3" />
@@ -535,7 +551,7 @@
     <SUITE FILE_PATH="coverage/machineLearning$back_propagation_2.coverage" NAME="back propagation 2 Coverage Results" MODIFIED="1690270928536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
     <SUITE FILE_PATH="coverage/machineLearning$ReLU6.coverage" NAME="ReLU6 Coverage Results" MODIFIED="1689643624104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
     <SUITE FILE_PATH="coverage/machineLearning$Adam.coverage" NAME="Adam Coverage Results" MODIFIED="1689586440283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
-    <SUITE FILE_PATH="coverage/machineLearning$demo002.coverage" NAME="demo002 Coverage Results" MODIFIED="1691671176418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/图神经网络代码" />
+    <SUITE FILE_PATH="coverage/machineLearning$demo002.coverage" NAME="demo002 Coverage Results" MODIFIED="1692347889503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/图神经网络代码" />
     <SUITE FILE_PATH="coverage/machineLearning$Hardswish.coverage" NAME="Hardswish Coverage Results" MODIFIED="1689643156848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
     <SUITE FILE_PATH="coverage/machineLearning$ELU.coverage" NAME="ELU Coverage Results" MODIFIED="1689642624814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
     <SUITE FILE_PATH="coverage/machineLearning$demo.coverage" NAME="demo Coverage Results" MODIFIED="1691334612949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/图神经网络代码" />
