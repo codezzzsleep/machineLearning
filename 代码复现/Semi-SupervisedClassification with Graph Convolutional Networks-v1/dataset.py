@@ -1,9 +1,10 @@
 from torch.utils.data import DataLoader
-from torch_geometric.datasets import CoraFull
+from torch_geometric.datasets import Planetoid
 import torch
 import networkx as nx
 import matplotlib.pyplot as plt
 from torch_geometric.utils import to_networkx
+from torch_geometric.transforms import NormalizeFeatures
 
 
 def visualize_graph(G, color):
@@ -25,12 +26,28 @@ def visualize_embedding(h, color, epoch=None, loss=None):
         plt.xlabel(f'Epoch: {epoch}, Loss: {loss.item():.4f}', fontsize=16)
     plt.show()
 
+dataset = Planetoid(root='data/Planetoid', name='Cora', transform=NormalizeFeatures())#transform预处理
 
-dataset = CoraFull(root='../dataset',)
-data = dataset[0]
-print(dataset)
-print(dataset.num_classes)
-print(dataset.num_features)
+print()
+print(f'Dataset: {dataset}:')
+print('======================')
+print(f'Number of graphs: {len(dataset)}')
+print(f'Number of features: {dataset.num_features}')
+print(f'Number of classes: {dataset.num_classes}')
+
+data = dataset[0]  # Get the first graph object.
+
+print()
 print(data)
-# G = to_networkx(data, to_undirected=True)
-# visualize_graph(G, color=data.y)
+print('===========================================================================================================')
+
+# Gather some statistics about the graph.
+print(f'Number of nodes: {data.num_nodes}')
+print(f'Number of edges: {data.num_edges}')
+print(f'Average node degree: {data.num_edges / data.num_nodes:.2f}')
+print(f'Number of training nodes: {data.train_mask.sum()}')
+print(f'Training node label rate: {int(data.train_mask.sum()) / data.num_nodes:.2f}')
+print(f'Has isolated nodes: {data.has_isolated_nodes()}')
+print(f'Has self-loops: {data.has_self_loops()}')
+print(f'Is undirected: {data.is_undirected()}')
+
