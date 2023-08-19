@@ -27,7 +27,7 @@ model = MyNet()
 
 data = dataset[0].to(device)
 optimizer = torch.optim.Adam(model.parameters(), lr=0.01, weight_decay=5e-4)
-
+torch.from_scipy_
 model.train()
 for epoch in range(100):
     optimizer.zero_grad()
