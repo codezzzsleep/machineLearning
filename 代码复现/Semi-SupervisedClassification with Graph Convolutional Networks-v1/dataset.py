@@ -26,7 +26,7 @@ def visualize_embedding(h, color, epoch=None, loss=None):
     plt.show()
 
 
-dataset = CoraFull(root='../dataset')
+dataset = CoraFull(root='../dataset',)
 data = dataset[0]
 print(dataset)
 print(dataset.num_classes)
