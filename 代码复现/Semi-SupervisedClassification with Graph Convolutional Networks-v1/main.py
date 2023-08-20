@@ -1,7 +1,7 @@
 import argparse
 import numpy as np
 import torch
-from dataset import load_data, load_dataset
+from dataset import load_dataset
 from model import MyNet
 from train import train
 from test import test
@@ -43,13 +43,16 @@ optimizer = optim.Adam(model.parameters(),
                        lr=args.lr, weight_decay=args.weight_decay)
 # 训练保存的路径
 path = utils.create_result_folder()
+
+
 # 启用tensorboard进行绘图
 writer = SummaryWriter(path[2])
+
 # 进行随机数种子设置
-# utils.same_seed(args.seed)
+utils.same_seed(args.seed)
 tb = program.TensorBoard()
 tb.configure(argv=[None, '--logdir', path[3]])
-print(path[3])
+
 # 启动 TensorBoard
 url = tb.launch()
 
@@ -57,8 +60,8 @@ url = tb.launch()
 print("TensorBoard启动成功！请访问下面的链接：")
 print(url)
 # 开始训练
-train(model, data, args.epochs, optimizer, path, writer,
+train(model, data, args.epochs, optimizer, path,
       fastmode=args.fastmode)
 # 测试
-test(model, data, writer)
+test(model, data)
 print("Done!")

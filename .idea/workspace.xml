@@ -1,34 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="完成">
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180033/logs/events.out.tfevents.1692525633.zzzsleep.10964.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180033/train/best_model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180033/train/last_model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180059/logs/events.out.tfevents.1692525659.zzzsleep.19544.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180059/train/best_model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180059/train/last_model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180313/logs/events.out.tfevents.1692525793.zzzsleep.10788.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180313/train/best_model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180313/train/last_model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180453/logs/events.out.tfevents.1692525893.zzzsleep.8624.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180453/train/best_model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180453/train/last_model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181551/logs/events.out.tfevents.1692526551.zzzsleep.18444.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181551/train/best_model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181551/train/last_model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181707/logs/events.out.tfevents.1692526627.zzzsleep.5252.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181707/train/best_model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181735/logs/events.out.tfevents.1692526655.zzzsleep.4708.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181735/train/best_model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181735/train/last_model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181959/logs/events.out.tfevents.1692526799.zzzsleep.23992.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181959/train/best_model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_182005/logs/events.out.tfevents.1692526805.zzzsleep.3436.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_182005/train/best_model.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_182005/train/last_model.pt" afterDir="false" />
+    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="v2.0">
+      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_205540/logs/events.out.tfevents.1692536140.zzzsleep.876.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_205709/logs/events.out.tfevents.1692536229.zzzsleep.19732.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_205709/train/best_model.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_205709/train/last_model.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/machineLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/machineLearning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_174917/logs/events.out.tfevents.1692524957.zzzsleep.19040.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_174917/train/best_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_174917/train/last_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_175032/logs/events.out.tfevents.1692525032.zzzsleep.19124.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_175032/train/best_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_175032/train/last_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_175114/logs/events.out.tfevents.1692525074.zzzsleep.2504.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_175114/train/best_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_175114/train/last_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_175141/logs/events.out.tfevents.1692525101.zzzsleep.10204.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_175141/train/best_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_175141/train/last_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_175924/logs/events.out.tfevents.1692525564.zzzsleep.1628.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180033/logs/events.out.tfevents.1692525633.zzzsleep.10964.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180033/train/best_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180033/train/last_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180059/logs/events.out.tfevents.1692525659.zzzsleep.19544.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180059/train/best_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180059/train/last_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180313/logs/events.out.tfevents.1692525793.zzzsleep.10788.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180313/train/best_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180313/train/last_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180453/logs/events.out.tfevents.1692525893.zzzsleep.8624.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180453/train/best_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_180453/train/last_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181551/logs/events.out.tfevents.1692526551.zzzsleep.18444.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181551/train/best_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181551/train/last_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181707/logs/events.out.tfevents.1692526627.zzzsleep.5252.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181707/train/best_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181735/logs/events.out.tfevents.1692526655.zzzsleep.4708.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181735/train/best_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181735/train/last_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181959/logs/events.out.tfevents.1692526799.zzzsleep.23992.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_181959/train/best_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_182005/logs/events.out.tfevents.1692526805.zzzsleep.3436.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_182005/train/best_model.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/runs/20230820_182005/train/last_model.pt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/utils.py" afterDir="false" />
@@ -89,6 +108,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -260,7 +280,7 @@
       <workItem from="1692178093232" duration="1327000" />
       <workItem from="1692261154675" duration="16376000" />
       <workItem from="1692428144297" duration="12627000" />
-      <workItem from="1692510121652" duration="13144000" />
+      <workItem from="1692510121652" duration="17840000" />
     </task>
     <task id="LOCAL-00001" summary="add photo">
       <created>1689557791551</created>
@@ -556,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692526251173</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="v2.0">
+      <created>1692527286791</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1692527286791</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,7 +602,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="反向传播" />
     <MESSAGE value="反向传播 二次模型拟合线性分布数据" />
     <MESSAGE value="对比pytorch 几种优化器的使用" />
     <MESSAGE value="逻辑斯蒂回归分类" />
@@ -600,7 +626,8 @@
     <MESSAGE value="复现论文 loading" />
     <MESSAGE value="bug fix" />
     <MESSAGE value="完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成" />
+    <MESSAGE value="v2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2.0" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machineLearning$SELU.coverage" NAME="SELU Coverage Results" MODIFIED="1689643757014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
@@ -655,7 +682,7 @@
     <SUITE FILE_PATH="coverage/machineLearning$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1690270786458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week8" />
     <SUITE FILE_PATH="coverage/machineLearning$tensor.coverage" NAME="tensor Coverage Results" MODIFIED="1690277280486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture 1-15/Pre class" />
     <SUITE FILE_PATH="coverage/machineLearning$Rprop.coverage" NAME="Rprop Coverage Results" MODIFIED="1689587802312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
-    <SUITE FILE_PATH="coverage/machineLearning$main.coverage" NAME="main Coverage Results" MODIFIED="1692526802821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1" />
+    <SUITE FILE_PATH="coverage/machineLearning$main.coverage" NAME="main Coverage Results" MODIFIED="1692536456598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1" />
     <SUITE FILE_PATH="coverage/machineLearning$back_propagation.coverage" NAME="back propagation Coverage Results" MODIFIED="1690270919649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
     <SUITE FILE_PATH="coverage/machineLearning$Adagrad.coverage" NAME="Adagrad Coverage Results" MODIFIED="1689586365596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
     <SUITE FILE_PATH="coverage/machineLearning$line_model.coverage" NAME="line model Coverage Results" MODIFIED="1690270878964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week2" />
