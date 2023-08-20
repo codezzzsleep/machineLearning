@@ -4,10 +4,10 @@ from torch_geometric.nn import GCNConv
 
 
 class MyNet(nn.Module):
-    def __init__(self, num_feature, num_hidden, num_class, dropout):
+    def __init__(self, num_feature, num_hidden, num_classes, dropout):
         super(MyNet, self).__init__()
         self.gc1 = GCNConv(num_feature, num_hidden)
-        self.gc2 = GCNConv(num_hidden, num_class)
+        self.gc2 = GCNConv(num_hidden, num_classes)
         self.activate = nn.ReLU()
         self.dropout = dropout
 

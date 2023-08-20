@@ -9,6 +9,15 @@ def load_data():
     return data
 
 
+def load_dataset():
+    dataset = Planetoid(root='data/Planetoid', name='Cora', transform=NormalizeFeatures())
+    return dataset
+
+
 if __name__ == "__main__":
     data = load_data()
-    print(type(data))
+    dataset = load_dataset()
+    print(dataset)
+    print(len(dataset))
+    print(dataset.num_features)
+    print(dataset.num_classes)

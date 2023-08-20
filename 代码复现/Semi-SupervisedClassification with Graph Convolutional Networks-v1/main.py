@@ -1,9 +1,14 @@
+import os.path
 import time
 import argparse
 import numpy as np
 import torch
-from dataset import load_data
+from dataset import load_data, load_dataset
 from model import MyNet
+from train import train
+import torch.optim as optim
+from torch.utils.tensorboard import SummaryWriter
+import utils
 
 # Training settings
 parser = argparse.ArgumentParser()
@@ -32,8 +37,15 @@ if args.cuda:
     torch.cuda.manual_seed(args.seed)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-model = MyNet().to(device)
-data = load_data().to(device=device)
+dataset = load_dataset()
+data = dataset[0].to(device=device)
+model = MyNet(num_feature=dataset.num_features, num_hidden=args.hidden,
+              num_classes=dataset.num_classes, dropout=args.dropout).to(device)
 
-if __name__ == "__main__":
-    pass
+optimizer = optim.Adam(model.parameters(),
+                       lr=args.lr, weight_decay=args.weight_decay)
+path = utils.create_result_folder()
+write = SummaryWriter(os.path.join(path, 'log'))
+
+train(model, data, args.epochs, optimizer, path, write,
+      seed=args.seed, fastmode=args.fastmode)
