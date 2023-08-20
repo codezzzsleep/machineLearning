@@ -8,6 +8,7 @@ from test import test
 import torch.optim as optim
 from torch.utils.tensorboard import SummaryWriter
 import utils
+from tensorboard import program
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--no-cuda', action='store_true', default=False,
@@ -46,6 +47,15 @@ path = utils.create_result_folder()
 writer = SummaryWriter(path[2])
 # 进行随机数种子设置
 # utils.same_seed(args.seed)
+tb = program.TensorBoard()
+tb.configure(argv=[None, '--logdir', path[3]])
+print(path[3])
+# 启动 TensorBoard
+url = tb.launch()
+
+# 打印 TensorBoard 的 URL
+print("TensorBoard启动成功！请访问下面的链接：")
+print(url)
 # 开始训练
 train(model, data, args.epochs, optimizer, path, writer,
       fastmode=args.fastmode)

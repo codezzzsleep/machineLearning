@@ -8,13 +8,15 @@ import numpy as np
 def create_result_folder():
     # 创建结果文件夹
     result_folder = f"{time.strftime('%Y%m%d_%H%M%S')}"
+    base_path = os.path.join("runs")
     result_folder = os.path.join("runs", result_folder)
     train_folder = os.path.join(result_folder, 'train')
     test_folder = os.path.join(result_folder, 'test')
     log_folder = os.path.join(result_folder, 'logs')
     Path(train_folder).mkdir(parents=True, exist_ok=True)
     Path(test_folder).mkdir(parents=True, exist_ok=True)
-    return train_folder, test_folder, log_folder
+    Path(log_folder).mkdir(parents=True, exist_ok=True)
+    return train_folder, test_folder, log_folder, base_path
 
 
 # 示例：将一些结果保存到结果文件夹中
