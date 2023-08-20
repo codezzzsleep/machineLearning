@@ -1,39 +1,30 @@
 import torch.nn.functional as F
+from tqdm import tqdm
+import utils
+import sys
 
 
-def train(model, data, epoch, optimizer, path, writer=None,
-          criterion=None, seed=42, fastmode=False):
+def train(model, data, epochs, optimizer, path, writer=None,
+          criterion=None, fastmode=False):
     # 将模型设置为训练模式
+    best_loss = sys.float_info.max
     model.train()
-
-    # 迭代数据集进行训练
-    for batch_idx, (inputs, targets) in enumerate(data):
-        # 将输入数据和目标数据发送到设备上
-        inputs = inputs.to(device)
-        targets = targets.to(device)
-
-        # 清除之前的梯度
+    for epoch in tqdm(range(epochs), desc='Processing'):
         optimizer.zero_grad()
-
-        # 前向传播
-        outputs = model(inputs)
-
-        # 计算损失
-        loss = criterion(outputs, targets)
-
-        # 反向传播
-        loss.backward()
-
-        # 更新模型参数
+        output = model(data.x, data.edge_index)
+        loss_train = F.nll_loss(output[data.train_mask], data.y[data.train_mask])
+        loss_train.backward()
         optimizer.step()
-
-        # 打印训练进度
-        if not fastmode and batch_idx % 10 == 0:
-            print('Train Epoch: {} [{}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(
-                epoch, batch_idx * len(inputs), len(data.dataset),
-                       100. * batch_idx / len(data), loss.item()))
-
         # 将损失值写入TensorBoard
         if writer is not None:
-            global_step = epoch * len(data) + batch_idx
-            writer.add_scalar('Loss/train', loss.item(), global_step)
+            global_step = epoch + 1
+            writer.add_scalar('Loss/train', loss_train.item(), global_step)
+        if fastmode:
+            model.eval()
+            output = model(data.x, data.edge_index)
+            loss_val = F.nll_loss(output[data.val_mask], data.y[data.val_mask])
+            if writer is not None:
+                global_step = epoch + 1
+                writer.add_scalar('Loss/val', loss_val.item(), global_step)
+                best_loss = utils.update_best_model(model, loss_val.item(), best_loss, path[0])
+    utils.save_result(model, path, True)

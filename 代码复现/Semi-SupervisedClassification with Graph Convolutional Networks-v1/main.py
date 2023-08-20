@@ -1,23 +1,21 @@
-import os.path
-import time
 import argparse
 import numpy as np
 import torch
 from dataset import load_data, load_dataset
 from model import MyNet
 from train import train
+from test import test
 import torch.optim as optim
 from torch.utils.tensorboard import SummaryWriter
 import utils
 
-# Training settings
 parser = argparse.ArgumentParser()
 parser.add_argument('--no-cuda', action='store_true', default=False,
                     help='Disables CUDA training.')
-parser.add_argument('--fastmode', action='store_true', default=False,
+parser.add_argument('--fastmode', action='store_true', default=True,
                     help='Validate during training pass.')
 parser.add_argument('--seed', type=int, default=42, help='Random seed.')
-parser.add_argument('--epochs', type=int, default=200,
+parser.add_argument('--epochs', type=int, default=800,
                     help='Number of epochs to train.')
 parser.add_argument('--lr', type=float, default=0.01,
                     help='Initial learning rate.')
@@ -27,25 +25,30 @@ parser.add_argument('--hidden', type=int, default=16,
                     help='Number of hidden units.')
 parser.add_argument('--dropout', type=float, default=0.5,
                     help='Dropout rate (1 - keep probability).')
-
+# 配置
 args = parser.parse_args()
 args.cuda = not args.no_cuda and torch.cuda.is_available()
-
 np.random.seed(args.seed)
 torch.manual_seed(args.seed)
-if args.cuda:
-    torch.cuda.manual_seed(args.seed)
-
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cuda' if args.cuda else 'cpu')
+# 数据导入
 dataset = load_dataset()
 data = dataset[0].to(device=device)
+# 模型初始化
 model = MyNet(num_feature=dataset.num_features, num_hidden=args.hidden,
               num_classes=dataset.num_classes, dropout=args.dropout).to(device)
-
+# 优化器
 optimizer = optim.Adam(model.parameters(),
                        lr=args.lr, weight_decay=args.weight_decay)
+# 训练保存的路径
 path = utils.create_result_folder()
-write = SummaryWriter(os.path.join(path, 'log'))
-
-train(model, data, args.epochs, optimizer, path, write,
-      seed=args.seed, fastmode=args.fastmode)
+# 启用tensorboard进行绘图
+writer = SummaryWriter(path[2])
+# 进行随机数种子设置
+# utils.same_seed(args.seed)
+# 开始训练
+train(model, data, args.epochs, optimizer, path, writer,
+      fastmode=args.fastmode)
+# 测试
+test(model, data, writer)
+print("Done!")

@@ -3,6 +3,7 @@ from torch_geometric.transforms import NormalizeFeatures
 
 
 def load_data():
+    print("load data……")
     dataset = Planetoid(root='data/Planetoid', name='Cora', transform=NormalizeFeatures())
     data = dataset[0]
     print(data)
@@ -10,6 +11,7 @@ def load_data():
 
 
 def load_dataset():
+    print("load dataset……")
     dataset = Planetoid(root='data/Planetoid', name='Cora', transform=NormalizeFeatures())
     return dataset
 
