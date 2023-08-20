@@ -1,8 +1,9 @@
 import time
 import argparse
 import numpy as np
-
 import torch
+from dataset import load_data
+from model import MyNet
 
 # Training settings
 parser = argparse.ArgumentParser()
@@ -29,3 +30,10 @@ np.random.seed(args.seed)
 torch.manual_seed(args.seed)
 if args.cuda:
     torch.cuda.manual_seed(args.seed)
+
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+model = MyNet().to(device)
+data = load_data().to(device=device)
+
+if __name__ == "__main__":
+    pass
