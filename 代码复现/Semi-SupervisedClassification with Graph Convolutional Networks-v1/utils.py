@@ -3,6 +3,7 @@ import time
 from pathlib import Path
 import torch
 import numpy as np
+from utils.early_stop import EarlyStop
 
 
 def create_result_folder():
@@ -41,5 +42,8 @@ def update_best_model(model, loss, best_loss, best_model_path):
     if loss < best_loss:
         best_loss = loss
         torch.save(model.state_dict(), f'{best_model_path}/best_model.pt')
-
     return best_loss
+
+
+if __name__ == "__main__":
+    early_stop = EarlyStop(patience=5, delta=0.001)
