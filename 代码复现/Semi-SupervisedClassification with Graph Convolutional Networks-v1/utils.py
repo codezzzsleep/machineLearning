@@ -3,7 +3,7 @@ import time
 from pathlib import Path
 import torch
 import numpy as np
-from utils.early_stop import EarlyStop
+from util.early_stop import EarlyStop
 
 
 def create_result_folder():
