@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="update early stop">
-      <change afterPath="$PROJECT_DIR$/西瓜书算法/决策树.py" afterDir="false" />
+    <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="sklearn 数据格式">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,7 @@
       <recent name="E:\github\machineLearning\homework\week6\photo\Sigmoid" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.决策树">
+  <component name="RunManager" selected="Python.main">
     <configuration name="决策树" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,8 +192,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.决策树" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.决策树" />
         <item itemvalue="Python.demo" />
         <item itemvalue="Python.train" />
         <item itemvalue="Python.dataset" />
@@ -236,7 +237,8 @@
       <workItem from="1692510121652" duration="19257000" />
       <workItem from="1692581513606" duration="4235000" />
       <workItem from="1692587568039" duration="1042000" />
-      <workItem from="1692671552619" duration="302000" />
+      <workItem from="1692671552619" duration="957000" />
+      <workItem from="1692693801023" duration="612000" />
     </task>
     <task id="LOCAL-00001" summary="add photo">
       <created>1689557791551</created>
@@ -560,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692581834975</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="sklearn 数据格式">
+      <created>1692671908318</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1692671908318</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +588,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="逻辑斯蒂回归分类" />
     <MESSAGE value="测试不同的激活函数对数据的影响" />
     <MESSAGE value="path update" />
     <MESSAGE value="my work" />
@@ -604,7 +612,8 @@
     <MESSAGE value="v2.0" />
     <MESSAGE value="add gitignore" />
     <MESSAGE value="update early stop" />
-    <option name="LAST_COMMIT_MESSAGE" value="update early stop" />
+    <MESSAGE value="sklearn 数据格式" />
+    <option name="LAST_COMMIT_MESSAGE" value="sklearn 数据格式" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/machineLearning$SELU.coverage" NAME="SELU Coverage Results" MODIFIED="1689643757014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
@@ -659,7 +668,7 @@
     <SUITE FILE_PATH="coverage/machineLearning$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1690270786458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week8" />
     <SUITE FILE_PATH="coverage/machineLearning$tensor.coverage" NAME="tensor Coverage Results" MODIFIED="1690277280486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture 1-15/Pre class" />
     <SUITE FILE_PATH="coverage/machineLearning$Rprop.coverage" NAME="Rprop Coverage Results" MODIFIED="1689587802312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
-    <SUITE FILE_PATH="coverage/machineLearning$main.coverage" NAME="main Coverage Results" MODIFIED="1692587575706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1" />
+    <SUITE FILE_PATH="coverage/machineLearning$main.coverage" NAME="main Coverage Results" MODIFIED="1692693838575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1" />
     <SUITE FILE_PATH="coverage/machineLearning$back_propagation.coverage" NAME="back propagation Coverage Results" MODIFIED="1690270919649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
     <SUITE FILE_PATH="coverage/machineLearning$Adagrad.coverage" NAME="Adagrad Coverage Results" MODIFIED="1689586365596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week4" />
     <SUITE FILE_PATH="coverage/machineLearning$line_model.coverage" NAME="line model Coverage Results" MODIFIED="1690270878964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week2" />
