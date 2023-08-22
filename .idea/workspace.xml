@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1562b07a-d46b-4966-9a13-d667d289b8a5" name="Changes" comment="update early stop">
-      <change afterPath="$PROJECT_DIR$/图神经网络代码/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/阶段总结（2023.7.30）.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/阶段总结（2023.7.30）.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/utils/early_stop.py" beforeDir="false" afterPath="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/util/early_stop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/西瓜书算法/决策树.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +78,29 @@
       <recent name="E:\github\machineLearning\homework\week6\photo\Sigmoid" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.决策树">
+    <configuration name="决策树" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="machineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/西瓜书算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/西瓜书算法/决策树.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="machineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,35 +189,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="machineLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1/utils.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.决策树" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.demo" />
         <item itemvalue="Python.train" />
         <item itemvalue="Python.dataset" />
-        <item itemvalue="Python.utils" />
       </list>
     </recent_temporary>
   </component>
@@ -240,6 +236,7 @@
       <workItem from="1692510121652" duration="19257000" />
       <workItem from="1692581513606" duration="4235000" />
       <workItem from="1692587568039" duration="1042000" />
+      <workItem from="1692671552619" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="add photo">
       <created>1689557791551</created>
@@ -620,7 +617,7 @@
     <SUITE FILE_PATH="coverage/machineLearning$MultiheadAttention.coverage" NAME="MultiheadAttention Coverage Results" MODIFIED="1689643372643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
     <SUITE FILE_PATH="coverage/machineLearning$dataset.coverage" NAME="dataset Coverage Results" MODIFIED="1692518570085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1" />
     <SUITE FILE_PATH="coverage/machineLearning$train.coverage" NAME="train Coverage Results" MODIFIED="1692522977132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/代码复现/Semi-SupervisedClassification with Graph Convolutional Networks-v1" />
-    <SUITE FILE_PATH="coverage/machineLearning$.coverage" NAME="三角形立体图对比 Coverage Results" MODIFIED="1690949308207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Visualization/多维to二维" />
+    <SUITE FILE_PATH="coverage/machineLearning$.coverage" NAME="决策树 Coverage Results" MODIFIED="1692671730789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/西瓜书算法" />
     <SUITE FILE_PATH="coverage/machineLearning$LeakyReLU.coverage" NAME="LeakyReLU Coverage Results" MODIFIED="1689643252118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week6" />
     <SUITE FILE_PATH="coverage/machineLearning$dataload.coverage" NAME="dataload Coverage Results" MODIFIED="1690270967510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework/week8" />
     <SUITE FILE_PATH="coverage/machineLearning$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1690966025456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorboard" />
